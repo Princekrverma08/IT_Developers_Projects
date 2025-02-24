@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body> 
+    <div id="calculator">
+         <input id="display" readonly placeholder="0">
+         <div id="keys">
+            <button onclick="appendToDisplay('+')" class="opeBtn padd">+</button>
+            <button onclick="appendToDisplay('1')" class="padd">1</button>
+            <button onclick="appendToDisplay('2')" class="padd">2</button>
+            <button onclick="appendToDisplay('3')" class="padd">3</button>
+            <button onclick="appendToDisplay('-')" class="opeBtn padd">-</button>
+            <button onclick="appendToDisplay('4')" class="padd">4</button>
+            <button onclick="appendToDisplay('5')" class="padd">5</button>
+            <button onclick="appendToDisplay('6')" class="padd">6</button>
+            <button onclick="appendToDisplay('*')" class="opeBtn padd">*</button>
+            <button onclick="appendToDisplay('7')" class="padd">7</button>
+            <button onclick="appendToDisplay('8')" class="padd">8</button>
+            <button onclick="appendToDisplay('9')" class="padd">9</button>
+            <button onclick="appendToDisplay('%')" class="opeBtn padd">%</button>
+            <button onclick="appendToDisplay('.')" class="padd">.</button>
+            <button onclick="appendToDisplay('0')" class="padd">0</button>
+            <button onclick="appendToDisplay('00')" class="padd">00</button>
+            <button onclick="appendToDisplay('/')" class="opeBtn padd">/</button>
+            <button onclick="clearDisplay()" class="opeBtn ">AC</button>
+            <button onclick="calculate('=')" class="padd btttn">=</button>
+            <button onclick="deleteLast()" class="opeBtn"> &#129152;</button>
+         </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
